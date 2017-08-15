@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Название компании - самая клевая компания!</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="container-fluid">
+        <div class="row head-container">
+          <div class="header-logo col-md-4 col-xs-6" >
+          <img src="img/logo.png" alt="logo" class="logo">
+          <div class="logo-title-block">
+          <div class="logo-title">Название компании
+          </div>
+          <div class="logo-subtitle">самая клевая компания
+          </div>
+          </div>
+        </div>
+        <div class="head-contacts col-md-4 col-xs-6">
+          <div class="head-phones">
+          <div class="head-phone">
+            <a href="tel:+7499777777" class="head-phone">+7 (499) 777-77-77</a>
+          </div>
+          <div class="head-phone">
+            <a href="tel:+7499777777" class="head-phone">+7 (499) 777-77-77</a>
+          </div>
+          </div>
+          <div class="header-feedback">
+            <a href="feedback.html" class="header-feedback-link">Обратная связь</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-default menu">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav menu-nav">
+              <li class="menu-nav-item">
+                <a href="index.html" class="menu-nav-link line">Главная</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="#" class="menu-nav-link line">Каталог</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="#" class="menu-nav-link line">Доставка и оплата</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="#" class="menu-nav-link line">Прайс-лист</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="#" class="menu-nav-link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="form">
+      <div class="container">
+        <form action="" method="post" name="feedback" class="feedback feedback-visible feedback-animate">
+          <p class="feedback-title">Обратная связь</p>
+          <label for="name">Ваше имя *
+            <input type="text" name="name" required class="feedback-input" placeholder="Поле обязательно для заполнения" autofocus>
+          </label>
+          <label for="phone">Телефон *
+            <input type="phone" name="phone" required class="feedback-input" placeholder="Поле обязательно для заполнения">
+          </label>
+          <label for="email">Email *
+            <input type="email" name="email" required class="feedback-input" placeholder="Поле обязательно для заполнения">
+          </label>
+          <label for="message">Сообщение
+            <textarea name="message" class="feedback-input feedback-input-message"></textarea>
+          </label>
+          <input type="submit" class="feedback-submit" value="Отправить">
+        </form>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="footer-container">
+          <section class="footer-column col-md-4 col-xs-6">
+            <div class="footer-copyright">© 2012 - 2013 ЗАО «Компания»</div>
+            <a href="mailto:info@name.ru" class="footer-email">info@name.ru</a>
+          </section>
+
+          <section class="footer-column footer-nav col-md-3 col-xs-6">
+            <ul class="footer-nav-inner">
+              <li class="footer-nav-item">
+                <a href="index.html" class="footer-nav-link">Главная</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Каталог</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Доставка и оплата</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Прайс-лист</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Контакты</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="footer-column col-md-4 col-xs-6">
+            <div class="pixel-plus-logo">
+              <img src="img/company.png" class="company-logo" alt="company-logo">
+              <div class="company-logo-link">
+                <a href="https://pixelplus.ru" class="pixel-plus-link">
+                Разработка сайта - </a>
+                <br>
+                компания «Пиксель Плюс»
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/feedback.js"></script>
+</body>
+</html>
